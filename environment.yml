@@ -1,4 +1,4 @@
-name: transformation_demo
+name: base
 channels:
   - defaults
 dependencies:
