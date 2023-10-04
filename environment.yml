@@ -1,0 +1,8 @@
+name: transformation_demo
+channels:
+  - defaults
+dependencies:
+  - python
+  - matplotlib
+  - numpy
+  - ipywidgets
