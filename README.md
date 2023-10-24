@@ -1,4 +1,4 @@
-# Starrkörpertransformationen für Robotik
+# Koordinatentransformationen in der Robotik
 
 ## 1 Einrichtung der Conda-Umgebung
 Voraussetzung ist eine funktionierende und aktuelle `conda`-Installation. Wenn es noch nicht auf Ihrem System installiert ist, 
@@ -20,8 +20,7 @@ which mamba
 whih python
 # should show: /home/<your username>/miniforge3/bin/python
 ```
-Hinweis: Beachten Sie, dass dies den Standard-Python-Interpreter/die Installation ersetzt, was die bevorzugte Methode ist,
-um bei Spleenlab mit Python zu arbeiten. Wenn Sie Zweifel haben, können Sie diese gerne in der Chatgruppe "Coding-Fragen" besprechen.
+Hinweis: Beachten Sie, dass dies den Standard-Python-Interpreter/die Installation ersetzt.
 ### 1.2 Umgebungserstellung
 In den folgenden Codezeilen wird `conda` als ausführbare Datei verwendet, aber wenn Sie es installiert haben (z.B. durch Befolgen 
 der Anweisungen in 1.1), können Sie es auch durch `mamba` ersetzen, das im Grunde das Gleiche tut, aber viel schneller.
@@ -31,10 +30,9 @@ conda env create -f conda-env.yaml
 Dies kann je nach Ihrer Internetverbindung eine Weile dauern.
 Nach Abschluss aktivieren Sie die Umgebung:
 ```
-conda activate oktoberfest-rbt
+conda activate transform
 ```
 ## 2 Starten und Ausführen im Jupyter Notebook
 ```
 jupyter notebook
 ```
-Laden Sie die Datei ``
